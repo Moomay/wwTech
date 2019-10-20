@@ -1,0 +1,46 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.idle {
+    background: url("../image/Run (1).png");
+}
+
+.charac{
+    height: 5rem;
+    width: 5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display:block;
+    animation:run 0.5s infinite;
+    position: absolute;
+    left: 10%;
+    transition: all 1s;
+}
+@keyframes run {
+    12.5% {background-image: url("../image/Run (1).png");}
+    25% {background-image: url("../image/Run (2).png");}
+    37.5% {background-image: url("../image/Run (3).png");}
+    50% {background-image: url("../image/Run (4).png");}
+    62.5% {background-image: url("../image/Run (5).png");}
+    75% {background-image: url("../image/Run (6).png");}
+    87.5% {background-image: url("../image/Run (7).png");}
+    100% {background-image: url("../image/Run (8).png");}
+}

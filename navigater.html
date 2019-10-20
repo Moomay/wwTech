@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col w25 has-background-warning">
+                <h2>year</h2>
+                <img src="assets/image/time.png" class="icon is-large" onclick="next(10);">
+                <h3>เหตุการณ์</h3>
+            </div>
+            <div class="col w25 has-background-warning">
+                <h2>year</h2>
+                <img src="assets/image/time.png" class="icon is-large" onclick="next(35);">
+                <h3>เหตุการณ์</h3>
+            </div>
+            <div class="col w25 has-background-warning">
+                <h2>year</h2>
+                <img src="assets/image/time.png" class="icon is-large" onclick="next(60);">
+                <h3>เหตุการณ์</h3>
+            </div>
+            <div class="col w25 has-background-warning">
+                <h2>year</h2>
+                <img src="assets/image/time.png" class="icon is-large" onclick="next(85);">
+                <h3>เหตุการณ์</h3>
+            </div>
+            <div class="charac idle" id="character"></div>
+        </div>
+
+        <div class="tabs is-fullwidth">
+            <ul>
+                <li>
+                    <a>
+                        <span class="icon"><i class="fas fa-angle-left" aria-hidden="true"></i></span>
+                        <span>Left</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+                        <span>Right</span>
+                        <span class="icon"><i class="fas fa-angle-right" aria-hidden="true"></i></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+    <script src="./assets/js/scrolltap.js"></script>
+</body>
+
+</html>
