@@ -55,22 +55,65 @@
         </div>
 
         <!-- Hero footer: will stick at the bottom -->
-        <div class="hero-foot">
-            <nav class="tabs">
-                <div class="container">
-                    <ul>
-                        <li class="is-active"><a>Overview</a></li>
-                        <li><a>Modifiers</a></li>
-                        <li><a>Grid</a></li>
-                        <li><a>Elements</a></li>
-                        <li><a>Components</a></li>
-                        <li><a>Layout</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+        <!--
+                <div class="hero-foot">
+                    <nav class="tabs">
+                        <div class="container">
+                            <ul>
+                                <li class="is-active"><a>Overview</a></li>
+                                <li><a>Modifiers</a></li>
+                                <li><a>Grid</a></li>
+                                <li><a>Elements</a></li>
+                                <li><a>Components</a></li>
+                                <li><a>Layout</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div> -->
     </section>
     <div class="container">
+        <div class="row">
+            <div class="col w25 has-background-warning">
+                <h2>28/05/1914</h2>
+                <img src="assets/image/time.png" class="icon is-large" onclick="next(10);">
+                <h3>ลอบปลงพระชนม์</h3>
+            </div>
+            <div class="col w25 has-background-warning">
+                <h2>year</h2>
+                <img src="assets/image/time.png" class="icon is-large" onclick="next(35);">
+                <h3>เหตุการณ์</h3>
+            </div>
+            <div class="col w25 has-background-warning">
+                <h2>year</h2>
+                <img src="assets/image/time.png" class="icon is-large" onclick="next(60);">
+                <h3>เหตุการณ์</h3>
+            </div>
+            <div class="col w25 has-background-warning">
+                <h2>year</h2>
+                <img src="assets/image/time.png" class="icon is-large" onclick="next(85);">
+                <h3>เหตุการณ์</h3>
+            </div>
+            <div class="charac idle" id="character"></div>
+        </div>
+
+        <div class="tabs is-fullwidth">
+                <ul>
+                    <li>
+                        <a>
+                            <span class="icon"><i class="fas fa-angle-left" aria-hidden="true"></i></span>
+                            <span>Left</span>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a>
+                            <span>Right</span>
+                            <span class="icon"><i class="fas fa-angle-right" aria-hidden="true"></i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        
         <div class="tile is-ancestor">
             <div class="tile is-vertical is-8">
                 <div class="tile">
@@ -116,9 +159,13 @@
                 </article>
             </div>
         </div>
+
+        
+
+
+
     </div>
-    <script src="./assets/js/nav.js"></script>
-    <script src="./assets/js/run.js"></script>
+    <script src="./assets/js/scrolltap.js"></script>
 </body>
 
 </html>
