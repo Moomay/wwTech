@@ -27,8 +27,8 @@
                         </span>
                     </div>
                     <div id="navbarMenuHeroA" class="navbar-menu">
-                        <div class="navbar-end" >
-                            <a class="navbar-item is-active" >
+                        <div class="navbar-end">
+                            <a class="navbar-item is-active">
                                 หน้าแรก
                             </a>
                             <a class="navbar-item">
@@ -84,18 +84,22 @@
             <div class="col w25 has-background-warning">
                 <h2>year</h2>
                 <a href="#two">
-                    <img src="assets/image/time.png" class="icon is-large" onclick="next(35);" href="#two">
+                    <img src="assets/image/time.png" class="icon is-large" onclick="next(35);">
                 </a>
                 <h3>เหตุการณ์</h3>
             </div>
             <div class="col w25 has-background-warning">
                 <h2>year</h2>
-                <img src="assets/image/time.png" class="icon is-large" onclick="next(60);">
+                <a href="#three">
+                    <img src="assets/image/time.png" class="icon is-large" onclick="next(60);">
+                </a>
                 <h3>เหตุการณ์</h3>
             </div>
             <div class="col w25 has-background-warning">
                 <h2>year</h2>
-                <img src="assets/image/time.png" class="icon is-large" onclick="next(85);">
+                <a href="#four">
+                    <img src="assets/image/time.png" class="icon is-large" onclick="next(85);">
+                </a>
                 <h3>เหตุการณ์</h3>
             </div>
             <div class="charac idle" id="character"></div>
@@ -124,14 +128,15 @@
                 <div class="tile">
                     <div class="tile is-parent is-vertical">
                         <article class="tile is-child notification is-primary">
-                            <p class="title" >28/05/1914</p>
+                            <p class="title">28/05/1914</p>
                             <p class="subtitle">ลอบปลงพระชนม์</p>
                         </article>
                         <article class="tile is-child notification is-warning">
                             <p class="title">ภาพข่าว</p>
                             <p class="subtitle"></p>
                             <figure class="image is-3by4">
-                                <img src="https://www.silpa-mag.com/wp-content/uploads/2016/07/13533276_909916969137696_7222308830328081147_n-225x300.jpg">
+                                <img
+                                    src="https://www.silpa-mag.com/wp-content/uploads/2016/07/13533276_909916969137696_7222308830328081147_n-225x300.jpg">
                             </figure>
                         </article>
                     </div>
@@ -140,22 +145,26 @@
                             <p class="title"></p>
                             <p class="subtitle">อาร์คดุยค ฟรานซ์ เฟอร์ดินานด์</p>
                             <figure class="image is-3by5">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Mayerling10.jpg/250px-Mayerling10.jpg">
+                                <img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Mayerling10.jpg/250px-Mayerling10.jpg">
                             </figure>
                         </article>
                     </div>
                 </div>
                 <div class="tile is-parent">
                     <article class="tile is-child notification is-danger">
-                        <p class="title" >เหตุการณ์</p>
-                        <p class="subtitle">ระหว่างเสด็จพระดำเนินด้วยรถเปิดประทุนในกรุงซาราเยโวของบอสเนีย อาร์ชดยุคฟรานซ์ เฟอร์ดินานด์พร้อมด้วยพระชายาถูกลอบยิงสิ้นพระชนม์ด้วยฝีมือของ กาฟริโล พรินซิป (Gavrilo Princip) ชาวบอสเนียเชื้อสายเซิร์บ สมาชิกกลุ่ม Mlada Bosna (หรือ Young Bosnia ขบวนการปฏิวัติของคนรุ่นใหม่ในบอสเนียและเฮอร์เซโกวีนา สมาชิกส่วนใหญ่เป็นชาวเซิร์บ)</p>
+                        <p class="title">เหตุการณ์</p>
+                        <p class="subtitle">ระหว่างเสด็จพระดำเนินด้วยรถเปิดประทุนในกรุงซาราเยโวของบอสเนีย
+                            อาร์ชดยุคฟรานซ์ เฟอร์ดินานด์พร้อมด้วยพระชายาถูกลอบยิงสิ้นพระชนม์ด้วยฝีมือของ กาฟริโล พรินซิป
+                            (Gavrilo Princip) ชาวบอสเนียเชื้อสายเซิร์บ สมาชิกกลุ่ม Mlada Bosna (หรือ Young Bosnia
+                            ขบวนการปฏิวัติของคนรุ่นใหม่ในบอสเนียและเฮอร์เซโกวีนา สมาชิกส่วนใหญ่เป็นชาวเซิร์บ)</p>
                         <div class="content">
                             <!-- Content -->
                         </div>
                     </article>
                 </div>
             </div>
-            
+
         </div>
 
         <div class="tile is-ancestor">
@@ -204,12 +213,103 @@
             </div>
         </div>
 
+        <div class="tile is-ancestor">
+            <div class="tile is-vertical is-8">
+                <div class="tile">
+                    <div class="tile is-parent is-vertical">
+                        <article class="tile is-child notification is-primary">
+                            <p class="title" id="three">Vertical...</p>
+                            <p class="subtitle">Top tile</p>
+                        </article>
+                        <article class="tile is-child notification is-warning">
+                            <p class="title">...tiles</p>
+                            <p class="subtitle">Bottom tile</p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification is-info">
+                            <p class="title">Middle tile</p>
+                            <p class="subtitle">With an image</p>
+                            <figure class="image is-4by3">
+                                <img src="https://bulma.io/images/placeholders/640x480.png">
+                            </figure>
+                        </article>
+                    </div>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child notification is-danger">
+                        <p class="title">Wide tile</p>
+                        <p class="subtitle">Aligned with the right tile</p>
+                        <div class="content">
+                            <!-- Content -->
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child notification is-success">
+                    <div class="content">
+                        <p class="title">Nav</p>
+                        <p class="subtitle">With even more content</p>
+                        <div class="content">
+                            <!-- Content -->
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
 
-
+        <div class="tile is-ancestor">
+            <div class="tile is-vertical is-8">
+                <div class="tile">
+                    <div class="tile is-parent is-vertical">
+                        <article class="tile is-child notification is-primary">
+                            <p class="title" id="four">Vertical...</p>
+                            <p class="subtitle">Top tile</p>
+                        </article>
+                        <article class="tile is-child notification is-warning">
+                            <p class="title">...tiles</p>
+                            <p class="subtitle">Bottom tile</p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification is-info">
+                            <p class="title">Middle tile</p>
+                            <p class="subtitle">With an image</p>
+                            <figure class="image is-4by3">
+                                <img src="https://bulma.io/images/placeholders/640x480.png">
+                            </figure>
+                        </article>
+                    </div>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child notification is-danger">
+                        <p class="title">Wide tile</p>
+                        <p class="subtitle">Aligned with the right tile</p>
+                        <div class="content">
+                            <!-- Content -->
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child notification is-success">
+                    <div class="content">
+                        <p class="title">Nav</p>
+                        <p class="subtitle">With even more content</p>
+                        <div class="content">
+                            <!-- Content -->
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
 
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="./assets/js/scrolltap.js"></script>
-
+    <script src="./assets/js/nav.js"></script>
+    
 </body>
 
 </html>

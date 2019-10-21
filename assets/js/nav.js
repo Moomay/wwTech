@@ -1,7 +1,4 @@
-const next = (x)=>{
-    character.style.left = ""+x+"%";
-    console.log(x);
-}
+
 
 const handleView = item => {
     const linkEl = document.querySelector(`#link-${item}`);
@@ -12,8 +9,12 @@ const handleView = item => {
     });
     
     inView(`#${item}`)
-      .on("enter", () => linkEl.classList.add('is-active'))
+      .on("enter", () => {
+        linkEl.classList.add('is-active');
+        console.log(item)
+        
+    })
       .on("exit", el  => linkEl.classList.remove('is-active'))
   };
 
-  ["one", "two", "three", "four", "five", "six"].forEach(handleView);
+  ["one", "two", "three", "four"].forEach(handleView);
