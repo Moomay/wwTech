@@ -63,3 +63,14 @@ body{
     background-color: #262525;
 
 }
+
+.flex-buttom{
+    display: flex;
+    flex-direction: row;
+    flex-shrink: nowrap;
+    justify-content: flex-end;
+    justify-items: flex-end;
+}
+section {
+    height: 100vh;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+    <style>
+        .nav {
+            position: fixed;
+        }
+
+        .nav__menu {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .nav__menu li {
+            display: inline-block;
+        }
+
+        .nav__menu__item {
+            display: block;
+            color: #4a4a4a;;
+            text-decoration: none;
+            position: sticky;
+        }
+
+        .nav__menu__item:hover,
+        .isactive {
+            color: #3273dc;
+            background-color: #4a4a4a00;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="columns is-multiline">
+            <div class="column is-four-fifths-tablet is-12-mobile has-background-grey-lighter">
+                <section id="section-1">SECTION 1</section>
+                <section id="section-2">SECTION 2</section>
+                <section id="section-3">SECTION 3</section>
+                <section id="section-4">SECTION 4</section>
+                <section id="section-5">SECTION 5</section>
+            </div>
+            <div class="column is-hidden-mobile has-background-light">
+                <nav class="nav clearfix">
+                    <ul class="nav__menu">
+                        <li><a class="nav__menu__item" href="#section-1">SECTION 1</a></li>
+                        <li><a class="nav__menu__item" href="#section-2">SECTION 2</a></li>
+                        <li><a class="nav__menu__item" href="#section-3">SECTION 3</a></li>
+                        <li><a class="nav__menu__item" href="#section-4">SECTION 4</a></li>
+                        <li><a class="nav__menu__item" href="#section-5">SECTION 5</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/nav3.js"></script>
+</body>
+
+</html>
