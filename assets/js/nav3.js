@@ -17,7 +17,8 @@ $(document).ready(function () {
         event.preventDefault();
         $("html, body").animate(
             {
-                scrollTop: $($(this).attr("href")).offset().top - $(".nav").height() //scroll ไปที่  (attr->href) ใน nav__menu ของ tag a
+                //scrollTop: $($(this).attr("href")).offset().top - $(".nav").height() //scroll ไปที่  (attr->href) ใน nav__menu ของ tag a
+                scrollTop: $($(this).attr("href")).offset().top
             },
             {
                 duration: 700,
