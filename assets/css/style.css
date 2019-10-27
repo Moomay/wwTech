@@ -15,7 +15,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: red;
 }
 
 .w25 {
@@ -72,3 +71,7 @@ body{
     justify-items: flex-end;
 }
 
+.abfull{
+    position: absolute;
+    height: 100vh;
+}
