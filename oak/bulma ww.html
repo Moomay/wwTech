@@ -17,7 +17,8 @@
         position: relative;
         display: inline-block;
         background-color: #363636;
-        margin: 0px;   
+        margin: 0px;
+        cursor: pointer;   
     }
     .card .pic1hover {
         display: none;
@@ -69,24 +70,22 @@
     <div class="level-item">
       <img src="รถถัง.png">
     </div>
-  
-
     <div class="level-right">
       <button class="button is-rounded"><B>TIME LINE</b></button>
     </div>
   </div>
   </div>
+
   <div class="level-left">
     <div class="card">
     <img src="gallery pic index.png"  style="width:600px; height: 794px;" class="pic1"> 
-    <img src="gallery pic index hover.png " style="width:600px; height: 794px;" class="pic1hover">
+    <img onclick="gallery" src="gallery pic index hover.png " style="width:600px; height: 794px;" class="pic1hover">
     </div>
     
-
-    <div class="level-right" >
-      <section class="section" style="padding: 0%;">
-          <div class="container">
-            <div class="con1">
+    <div class="level-right">
+    <section class="hero is-primary is-fullheight">
+      <div class="hero-body">
+        <div class="container">
             <h1 class="title">
               FIRST WORLD WAR
             </h1>
@@ -106,10 +105,12 @@
               <br>สงครามโลกครั้งที่หนึ่งยังนับว่าเป็นความขัดแย้งวงกว้าง
               <br>ภายในทวีปยุโรปครั้งใหญ่ที่สุดนับตั้งแต่สงครามนโปเลียน
             </h2>
-            </div>
+          </div>
         </div>
       </section>
     </div>
+  </div>
+  
 
 
 
@@ -128,7 +129,6 @@
       })();
     </script>
 
-    </script>
 </body>
 
 </html>
