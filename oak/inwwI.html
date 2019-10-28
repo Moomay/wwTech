@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    <title>World War</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: #363636;
+        }
+
+        .card {
+            position: relative;
+            display: inline-block;
+            background-color: #363636;
+            margin: 0px;
+        }
+
+        .card .pic1hover {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 99;
+        }
+
+        .card:hover .pic1hover {
+            display: block;
+        }
+
+        .con1 {
+            background-color: white;
+            width: 100%;
+            height: 800px;
+            padding: 30px;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            /*justify-content: center;*/
+            /*align-items: center;*/
+        }
+
+        .col {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            /*justify-content: center;
+            align-items: center;*/
+        }
+
+        .ww1 {
+            width: calc(100%-600px);
+        }
+
+        @media screen and (max-width: 768px) {
+            .col {
+                width: 100%;
+                /* The width is 100%, when the viewport is 800px or smaller */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar is-dark">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#" style="font-weight:bold;">
+                    <img src="wwlogo.png">
+                </a>
+                <span class="navbar-burger burger" data-target="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </div>
+            <div id="navMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a href="#" class="navbar-item is-active">WORLD WAR I</a>
+                    <a href="#" class="navbar-item">WORLD WAR II</a>
+                </div>
+            </div>
+    </nav>
+
+    <div class="container is-widescreen">
+        <img src="world war word.png" style="width: 90%;">
+    </div>
+    <div class="level-left">
+        <div class="level-item">
+            <img src="รถถัง.png">
+        </div>
+
+
+        <div class="level-right">
+            <button class="button is-rounded"><B>TIME LINE</b></button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <img src="gallery pic index.png" style="width:600px; height: 794px;" class="pic1">
+                <img src="gallery pic index hover.png " style="width:600px; height: 794px;" class="pic1hover">
+            </div>
+        </div>
+        <div class="col has-background-info ww1">
+
+            <h1 class="title">
+                FIRST WORLD WAR
+            </h1>
+            <h2 class="subtitle"><br>
+                &nbsp &nbsp<b>W</b>orld War I หรือ First World War
+                <br>หรือที่มักเรียกว่า "สงครามโลก" หรือ "มหาสงคราม" Great War) ก่อน ค.ศ. 1939
+                <br>เป็นสงครามใหญ่ที่มีศูนย์กลางในยุโรประหว่างวันที่
+                <br> 28 กรกฎาคม ค.ศ. 1914 ถึง 11 พฤศจิกายน ค.ศ. 1918
+                <br>ทุกประเทศมหาอำนาจของโลกเกี่ยวพันในสงคราม
+                <br>ซึ่งแบ่งออกเป็นฝ่ายสัมพันธมิตร (มีศูนย์กลางอยู่ที่ไตรภาคี
+                <br> ได้แก่ อังกฤษ ฝรั่งเศสและรัสเซีย) และฝ่ายมหาอำนาจกลาง
+                <br>(มีศูนย์กลางอยู่ที่ เยอรมนี ออสเตรีย-ฮังการี
+                <br>ออตโตมันและบัลแกเรีย) พันธมิตรทั้งสองมีการจัดระเบียบใหม่
+                <br>และขยายตัวเมื่อมีชาติเข้าสู่สงครามมากขึ้น ท้ายสุด
+                <br>มีทหารกว่า 70 ล้านนาย ซึ่งเป็นทหารยุโรปเสีย 60 ล้านนาย
+                <br> ถูกระดมเข้าสู่สงครามใหญ่ที่สุดสงครามหนึ่งในประวัติศาสตร์นี้
+                <br>สงครามโลกครั้งที่หนึ่งยังนับว่าเป็นความขัดแย้งวงกว้าง
+                <br>ภายในทวีปยุโรปครั้งใหญ่ที่สุดนับตั้งแต่สงครามนโปเลียน
+            </h2>
+        </div>
+    </div>
+    <div class="container is-fluid">
+
+        <div class="columns">
+            <div class="column is-4">
+                <div class="card">
+                    <img src="gallery pic index.png" style="width:600px; height: 794px;" class="pic1">
+                    <img src="gallery pic index hover.png " style="width:600px; height: 794px;" class="pic1hover">
+                </div>
+            </div>
+            <div class="column has-background-info" style="display:flex;flex-direction:column;align-items: center;">
+                <h1 class="title">
+                    FIRST WORLD WAR
+                </h1>
+                <h2 class="subtitle"><br>
+                    &nbsp &nbsp<b>W</b>orld War I หรือ First World War
+                    <br>หรือที่มักเรียกว่า "สงครามโลก" หรือ "มหาสงคราม" Great War) ก่อน ค.ศ. 1939
+                    <br>เป็นสงครามใหญ่ที่มีศูนย์กลางในยุโรประหว่างวันที่
+                    <br> 28 กรกฎาคม ค.ศ. 1914 ถึง 11 พฤศจิกายน ค.ศ. 1918
+                    <br>ทุกประเทศมหาอำนาจของโลกเกี่ยวพันในสงคราม
+                    <br>ซึ่งแบ่งออกเป็นฝ่ายสัมพันธมิตร (มีศูนย์กลางอยู่ที่ไตรภาคี
+                    <br> ได้แก่ อังกฤษ ฝรั่งเศสและรัสเซีย) และฝ่ายมหาอำนาจกลาง
+                    <br>(มีศูนย์กลางอยู่ที่ เยอรมนี ออสเตรีย-ฮังการี
+                    <br>ออตโตมันและบัลแกเรีย) พันธมิตรทั้งสองมีการจัดระเบียบใหม่
+                    <br>และขยายตัวเมื่อมีชาติเข้าสู่สงครามมากขึ้น ท้ายสุด
+                    <br>มีทหารกว่า 70 ล้านนาย ซึ่งเป็นทหารยุโรปเสีย 60 ล้านนาย
+                    <br> ถูกระดมเข้าสู่สงครามใหญ่ที่สุดสงครามหนึ่งในประวัติศาสตร์นี้
+                    <br>สงครามโลกครั้งที่หนึ่งยังนับว่าเป็นความขัดแย้งวงกว้าง
+                    <br>ภายในทวีปยุโรปครั้งใหญ่ที่สุดนับตั้งแต่สงครามนโปเลียน
+                </h2>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <script type="text/javascript">
+        (function () {
+            var burger = document.querySelector('.burger');
+            var nav = document.querySelector('#' + burger.dataset.target);
+
+            burger.addEventListener('click', function () {
+                burger.classList.toggle('is-active');
+                nav.classList.toggle('is-active');
+            });
+        })();
+    </script>
+
+    </script>
+</body>
+
+</html>
