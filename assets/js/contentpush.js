@@ -31,7 +31,7 @@ function myFunction(myObj) {
             if (myObj[j][i].picture != "none") {
                 txt += '<div class="imgset"><figure class="image"><img src="';
                 txt += myObj[j][i].picture;
-                txt += '" style="max-height: 320px;max-width: 500px;"></figure></div>'
+                txt += '" style="max-width: 500px;"></figure></div>'
             }
 
         }

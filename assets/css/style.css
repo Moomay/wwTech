@@ -75,3 +75,37 @@ body{
     position: absolute;
     height: 100vh;
 }
+
+/*for content*/
+.nav__menu {
+    float: right;
+}
+
+
+
+.nav__menu li {
+    display: inline-block;
+}
+
+.nav__menu__item {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    position: sticky;
+    margin: 0.25rem;
+}
+
+
+.nav__menu__item:hover,
+.isactive {
+    color: #3273dc;
+    background-color: #4a4a4a00;
+}
+
+.imgset {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
