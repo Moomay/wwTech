@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Pridi&display=swap" rel="stylesheet">
+    <style>
+        .nav__menu {
+            float: right;
+        }
+
+
+
+        .nav__menu li {
+            display: inline-block;
+        }
+
+        .nav__menu__item {
+            display: block;
+            color: #ffffff;
+            text-decoration: none;
+            position: sticky;
+            margin: 0.25rem;
+        }
+
+
+        .nav__menu__item:hover,
+        .isactive {
+            color: #3273dc;
+            background-color: #4a4a4a00;
+        }
+
+        .imgset {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+
+<body style="font-family: 'Pridi', serif;">
+    <nav class="navbar is-fixed-top is-transparent nav" role="navigation" aria-label="main navigation"
+        style="background-color: #363636;">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <img src="assets/image/icon3.png">
+            </a>
+
+            <a role="button" class="navbar-burger burger " aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu" style="background-color: #36363685;">
+            <div class="navbar-end nav__menu">
+                <div class="navbar-item">
+                    <a class="nav__menu__item" href="#section-1">เดือน มกราคม</a>
+                    <a class="nav__menu__item" href="#section-2">เดือน กุมกาพันธ์</a>
+                    <a class="nav__menu__item" href="#section-3">เดือน พฤศจิกายน</a>
+                    <a class="nav__menu__item" href="#section-4">เดือน ธันวาคม</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="columns is-multiline">
+            <div class="column" style="background-color: #eceff1;">
+                <section id="section-1"></section>
+                <section id="section-2">SECTION 2</section>
+                <section id="section-3">SECTION 3</section>
+                <section id="section-4">SECTION 4</section>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+
+                    });
+                });
+            }
+
+        });
+    </script>
+    <script src="assets/js/contentpush1940.js"></script>
+    <script src="assets/js/nav3.js"></script>
+</body>
+
+</html>
