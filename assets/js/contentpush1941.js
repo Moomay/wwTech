@@ -37,7 +37,7 @@ function myFunction(myObj) {
             }
 
         }
-        if((j+1)%4 == 0){
+        if((j+1)%3 == 0){
             document.getElementById("section-" + (count + 1) + "").innerHTML = txt;
             count += 1;
             txt = "<br>";
