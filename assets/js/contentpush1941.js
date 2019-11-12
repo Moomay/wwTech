@@ -40,7 +40,7 @@ function myFunction(myObj) {
         if((j+1)%4 == 0){
             document.getElementById("section-" + (count + 1) + "").innerHTML = txt;
             count += 1;
-            let txt = "<br>";
+            txt = "<br>";
         }
     }
 
