@@ -1,4 +1,4 @@
-let requestURL = '../assets/js/ww2_1940.json';
+let requestURL = '../assets/js/ww2_1942.json';
 let request = new XMLHttpRequest();
 request.onreadystatechange = function () {
     if (request.readyState == 4 && request.status == 200) {
