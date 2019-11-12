@@ -10,8 +10,10 @@ request.open("GET", requestURL, true);
 request.send();
 function myFunction(myObj) {
     console.log(myObj.length);
+    let count = 0;
+    let txt = "<br>";
     for (let j = 0; j < myObj.length; j++) {
-        let txt = "<br>";
+        
         for (let i = 0; i < myObj[j].length; i++) {
             if (myObj[j][i].date != "none") {
                 txt += "<p class='title' style='padding: 1.25rem 10px 0px 10px;'>";
@@ -35,7 +37,11 @@ function myFunction(myObj) {
             }
 
         }
-        document.getElementById("section-" + (j + 1) + "").innerHTML = txt;
+        if((j+1)%4 == 0){
+            document.getElementById("section-" + (count + 1) + "").innerHTML = txt;
+            count += 1;
+            let txt = "<br>";
+        }
     }
 
 }
