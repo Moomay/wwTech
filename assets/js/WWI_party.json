@@ -1,0 +1,36 @@
+[
+    [
+        {
+            "title" : "The Triple Entente"
+        },
+        {
+            "country" : "France",
+            "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg/188px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg.png"
+        },
+        {
+            "country" : "Russia",
+            "flag" : "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/188px-Flag_of_Russia.svg.png"
+        },
+        {
+            "country" : "Britain",
+            "flag" : "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/188px-Flag_of_the_United_Kingdom.svg.png"
+        }
+    ],
+    [
+        {
+            "title" : "This is the Triple Alliance"
+        },
+        {
+            "country" : "Germany",
+            "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_the_German_Empire.svg/188px-Flag_of_the_German_Empire.svg.png"
+        },
+        {
+            "country" : "Austria-Hungary",
+            "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Austria-Hungary_%281869-1918%29.svg/188px-Flag_of_Austria-Hungary_%281869-1918%29.svg.png"
+        },
+        {
+            "country" : "Italy",
+            "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Italy_%281861-1946%29_crowned.svg/188px-Flag_of_Italy_%281861-1946%29_crowned.svg.png"
+        }
+    ]
+]
