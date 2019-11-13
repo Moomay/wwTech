@@ -109,3 +109,8 @@ body{
     justify-content: center;
     align-items: center;
 }
+.cardho:hover {
+    transform: scale(1.025);
+    transition: 300ms ease;
+    text-decoration: none;
+}

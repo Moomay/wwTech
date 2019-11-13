@@ -12,7 +12,7 @@ function myFunction(myObj) {
     console.log(myObj.length);
     txt = ""
     for (let i = 1; i < myObj[0].length; i++) {
-        txt += '<div class="column is-6-mobile is-3-tablet">'
+        txt += '<div class="column is-6-mobile is-3-tablet cardho">'
         txt += '<div class="imgset"'
         if (i == 12) {
             txt += '<figure class="image"><img src = "' + myObj[0][i].flag[1] + '" style = "min-height: 100px; max-height: 200px; min-width:150px; max-width:250px;"/></figure >'
@@ -27,7 +27,7 @@ function myFunction(myObj) {
     WWIparty0.innerHTML = txt
     txt = ""
     for (let i = 1; i < myObj[1].length; i++) {
-        txt += '<div class="column is-6-mobile is-3-tablet">'
+        txt += '<div class="column is-6-mobile is-3-tablet cardho">'
         txt += '<div class="imgset"'
         if (i == 12) {
             txt += '<figure class="image"><img src = "' + myObj[1][i].flag[1] + '" style = "min-height: 100px; max-height: 200px; min-width:150px; max-width:250px;"/></figure >'
