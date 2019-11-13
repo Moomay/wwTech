@@ -4,93 +4,78 @@
             "title" : "ฝ่ายสัมพันธมิตร"
         },
         {
-            "role" : "ตัวหลักสำคัญ",
-            "list" : [
-                {
-                    "country": "สาธารณรัฐฝรั่งเศสที่ 3",
-                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg/188px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg.png",
-                },
-                {
-                    "country": "จักรวรรดิรัสเซีย",
-                    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/188px-Flag_of_Russia.svg.png",
-                },
-                {
-                    "country": "จักรวรรดิอังกฤษ หรือ จักรวรรดิบริติช",
-                    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/188px-Flag_of_the_United_Kingdom.svg.png",
-                },
-                {
-                    "country": "ราชอาณาจักรอิตาลี",
-                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Italy_%281861-1946%29_crowned.svg/188px-Flag_of_Italy_%281861-1946%29_crowned.svg.png",
-                },
-                {
-                    "country": "จักรวรรดิญี่ปุ่น",
-                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Japan_%281870%E2%80%931999%29.svg/188px-Flag_of_Japan_%281870%E2%80%931999%29.svg.png",
-                },
-                {
-                    "country": "สหรัฐอเมริกา",
-                    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/188px-Flag_of_the_United_States.svg.png",
-                }
-            ]
-        }
+            "country" : "สาธารณรัฐฝรั่งเศสที่ 3",
+            "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg/188px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg.png",
+            "role" : "ตัวหลักสำคัญ"
+        },
         {
-            "role" : "พันธมิตรที่เกี่ยวข้องและผู้ร่วมสงคราม",
-            "list" : [
-                {
-                    "country": "สาธารณรัฐฝรั่งเศสที่ 3",
-                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg/188px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg.png",
-                },
-                {
-                    "country": "จักรวรรดิรัสเซีย",
-                    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/188px-Flag_of_Russia.svg.png",
-                },
-                {
-                    "country": "จักรวรรดิอังกฤษ หรือ จักรวรรดิบริติช",
-                    "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/188px-Flag_of_the_United_Kingdom.svg.png",
-                },
-                {
-                    "country": "ราชอาณาจักรอิตาลี",
-                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Italy_%281861-1946%29_crowned.svg/188px-Flag_of_Italy_%281861-1946%29_crowned.svg.png",
-                },
-                {
-                    "country": "ราชอาณาจักรเซอร์เบีย",
-                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/State_Flag_of_Serbia_%281882-1918%29.svg/203px-State_Flag_of_Serbia_%281882-1918%29.svg.png",
-                },
-                {
-                    "country": "ราชอาณาจักรมอนเตเนโกร",
-                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Montenegro_%281905%E2%80%931918%29.svg/188px-Flag_of_Montenegro_%281905%E2%80%931918%29.svg.png",
-                },
-                {
-                    "country": "ราชอาณาจักรเบลเยียม",
-                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/188px-Flag_of_Belgium.svg.png",
-                },
-                {
-                    "country": "ราชอาณาจักรโรมาเนีย",
-                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/188px-Flag_of_Romania.svg.png",
-                },
-                {
-                    "country": "ราชอาณาจักรโปรตุเกส",
-                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/188px-Flag_of_Portugal.svg.png",
-                },
-                {
-                    "country": "สาธารณรัฐจีน",
-                    "flag": [
-                        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_China_%281912%E2%80%931928%29.svg/188px-Flag_of_China_%281912%E2%80%931928%29.svg.png",
-                        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/188px-Flag_of_the_Republic_of_China.svg.png"
-                    ],
-                },
-                {
-                    "country": "ราชอาณาจักรกรีซ",
-                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/State_Flag_of_Greece_%281863-1924_and_1935-1973%29.svg/195px-State_Flag_of_Greece_%281863-1924_and_1935-1973%29.svg.png",
-                },
-                {
-                    "country": "ราชอาณาจักรรัตนโกสินทร์ (สยาม หรือ ไทยในปัจจุบัน)",
-                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Thailand_%281782%29.svg/330px-Flag_of_Thailand_%281782%29.svg.png",
-                }
-            ]
+            "country" : "จักรวรรดิรัสเซีย",
+            "flag" : "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/188px-Flag_of_Russia.svg.png",
+            "role" : "ตัวหลักสำคัญ"
+        },
+        {
+            "country" : "จักรวรรดิอังกฤษ หรือ จักรวรรดิบริติช",
+            "flag" : "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/188px-Flag_of_the_United_Kingdom.svg.png",
+            "role" : "ตัวหลักสำคัญ"
+        },
+        {
+            "country" : "ราชอาณาจักรอิตาลี",
+            "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Italy_%281861-1946%29_crowned.svg/188px-Flag_of_Italy_%281861-1946%29_crowned.svg.png",
+            "role" : "ตัวหลักสำคัญ"
+        },
+        {
+            "country" : "ราชอาณาจักรเซอร์เบีย",
+            "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/State_Flag_of_Serbia_%281882-1918%29.svg/203px-State_Flag_of_Serbia_%281882-1918%29.svg.png",
+            "role" : "พันธมิตรที่เกี่ยวข้องและผู้ร่วมสงคราม"
+        },
+        {
+            "country" : "ราชอาณาจักรมอนเตเนโกร",
+            "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Montenegro_%281905%E2%80%931918%29.svg/188px-Flag_of_Montenegro_%281905%E2%80%931918%29.svg.png",
+            "role" : "พันธมิตรที่เกี่ยวข้องและผู้ร่วมสงคราม"
+        },
+        {
+            "country" : "ราชอาณาจักรเบลเยียม",
+            "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/188px-Flag_of_Belgium.svg.png",
+            "role" : "พันธมิตรที่เกี่ยวข้องและผู้ร่วมสงคราม"
+        },
+        {
+            "country" : "จักรวรรดิญี่ปุ่น",
+            "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Japan_%281870%E2%80%931999%29.svg/188px-Flag_of_Japan_%281870%E2%80%931999%29.svg.png",
+            "role" : "ตัวหลักสำคัญ"
+        },
+        {
+            "country" : "สหรัฐอเมริกา",
+            "flag" : "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/188px-Flag_of_the_United_States.svg.png",
+            "role" : "ตัวหลักสำคัญ"
+        },
+        {
+            "country" : "ราชอาณาจักรโรมาเนีย",
+            "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/188px-Flag_of_Romania.svg.png",
+            "role" : "พันธมิตรที่เกี่ยวข้องและผู้ร่วมสงคราม"
+        },
+        {
+            "country" : "ราชอาณาจักรโปรตุเกส",
+            "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/188px-Flag_of_Portugal.svg.png",
+            "role" : "พันธมิตรที่เกี่ยวข้องและผู้ร่วมสงคราม"
+        },
+
+        {
+            "country" : "สาธารณรัฐจีน",
+            "flag" : ["https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_China_%281912%E2%80%931928%29.svg/188px-Flag_of_China_%281912%E2%80%931928%29.svg.png",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/188px-Flag_of_the_Republic_of_China.svg.png"],
+            "role" : "พันธมิตรที่เกี่ยวข้องและผู้ร่วมสงคราม"
+
+        },
+        {
+            "country" : "ราชอาณาจักรกรีซ",
+            "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/State_Flag_of_Greece_%281863-1924_and_1935-1973%29.svg/195px-State_Flag_of_Greece_%281863-1924_and_1935-1973%29.svg.png",
+            "role" : "พันธมิตรที่เกี่ยวข้องและผู้ร่วมสงคราม"
+        },
+        {
+            "country" : "ราชอาณาจักรรัตนโกสินทร์ (สยาม หรือ ไทยในปัจจุบัน)",
+            "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Thailand_%281782%29.svg/330px-Flag_of_Thailand_%281782%29.svg.png",
+            "role" : "พันธมิตรที่เกี่ยวข้องและผู้ร่วมสงคราม"
         }
-        
-        
-        
     ],
     [
         {
@@ -106,7 +91,7 @@
         },
         {
             "country" : "จักรวรรดิออตโตมัน",
-            "flag" : "https://www.bloggang.com/data/vinitsiri/picture/1261890740.png"
+            "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_Ottoman_Empire_%28also_used_in_Egypt%29.svg/1200px-Flag_of_the_Ottoman_Empire_%28also_used_in_Egypt%29.svg.png"
         },
         {
             "country" : "อาณาจักรซาร์แห่งบัลแกเรีย",
