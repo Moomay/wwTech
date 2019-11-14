@@ -27,10 +27,10 @@
         {
             "date": "12 มกราคม 1945",
             "information": [
-                "ทัพโซเวียตโจมตีครั้งใหญ่ที่ปรัสเซียตะวันออก"
+                "ทัพโซเวียตโจมตีครั้งใหญ่ที่รัสเซียตะวันออก"
             ],
             "monthNum": 1,
-            "picture": "none"
+            "picture": "assets/image/conpic12.jpg"
         },
         {
             "date": "15 มกราคม 1945",
@@ -112,7 +112,7 @@
                 "กรุงบูดาเปสต์ถูกปลดปล่อยโดยกองทัพโซเวียต"
             ],
             "monthNum": 2,
-            "picture": "none"
+            "picture": "assets/image/conpic13.jpg"
         },
         {
             "date": "13-14 กุมภาพันธ์ 1945",
@@ -343,7 +343,7 @@
                 "นาซีเยอรมนียอมจำนนอย่างไม่เป็นทางการ โดยประธานาธิบดีคาร์ล เดอนิตช์"
             ],
             "monthNum": 5,
-            "picture": "none"
+            "picture": "assets/image/conpic14.jpg"
         },
         {
             "date": "8 พฤษภาคม 1945",
@@ -502,7 +502,7 @@
                 "ระเบิดนิวเคลียร์ลูกแรก Little Boy ถูกทิ้งลงที่เมืองฮิโรชิมา"
             ],
             "monthNum": 8,
-            "picture": "none"
+            "picture": "assets/image/conpic15.jpg"
         },
         {
             "date": "8 สิงหาคม 1945",
@@ -518,7 +518,7 @@
                 "ระเบิดนิวเคลียร์ลูกที่สอง Fat Man ถูกทิ้งลงที่เมืองนะงะซะกิ"
             ],
             "monthNum": 8,
-            "picture": "none"
+            "picture": "assets/image/conpic15.jpg"
         },
         {
             "date": "15 สิงหาคม 1945",
