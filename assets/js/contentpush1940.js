@@ -10,15 +10,17 @@ request.open("GET", requestURL, true);
 request.send();
 function myFunction(myObj) {
     console.log(myObj.length);
+    let txt = "<br>"
+    let count = 0; 
     for (let j = 0; j < myObj.length; j++) {
-        let txt = "<br>";
+        
         for (let i = 0; i < myObj[j].length; i++) {
             if (myObj[j][i].date != "none") {
                 txt += "<p class='title' style='padding: 1.25rem 10px 0px 10px;'>";
                 txt += myObj[j][i].date;
                 txt += "</p>";
             }
-            for (let k=0;k<myObj[j][i].information.length;k++){
+            for (let k = 0; k < myObj[j][i].information.length; k++) {
                 txt += '<p style="padding: 0px 10px 0px 10px;" class="is-size-4-widescreen is-size-5-touch">';
                 txt += myObj[j][i].information[k];
                 txt += "</p><br>";
@@ -35,7 +37,11 @@ function myFunction(myObj) {
             }
 
         }
-        document.getElementById("section-" + (j + 1) + "").innerHTML = txt;
+        if ((j + 1) % 3 == 0) {
+            document.getElementById("section-" + (count + 1) + "").innerHTML = txt;
+            count += 1;
+            txt = "<br>"
+        }
     }
 
 }
