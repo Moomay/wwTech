@@ -1,40 +1,39 @@
 [
     [
         {
-            "title" : "ฝ่ายสัมพันธมิตร"
+            "title": "ฝ่ายสัมพันธมิตร"
         },
         {
-            "role" : "แกนนำหลัก",
-            "list" : [
+            "role": "แกนนำหลัก",
+            "list": [
                 {
-                    "country" : "สหราชอาณาจักร",
-                    "flag" : "https://1.bp.blogspot.com/-uFYxU-JnAwA/WdamRp_cTfI/AAAAAAABZaE/K749K-Buh5Ie9o9vr2fzhadr8jBOuozFACLcBGAs/s1600/favicon.png",
+                    "country": "สหราชอาณาจักร",
+                    "flag": "https://1.bp.blogspot.com/-uFYxU-JnAwA/WdamRp_cTfI/AAAAAAABZaE/K749K-Buh5Ie9o9vr2fzhadr8jBOuozFACLcBGAs/s1600/favicon.png"
                 },
                 {
-                    "country" : "สหภาพโซเวียต",
-                    "flag" : "https://img2.thaipng.com/20180410/bfe/kisspng-flag-of-the-soviet-union-hammer-and-sickle-communi-book-now-button-5acc7a5a4f3240.6341164215233501063244.jpg",
+                    "country": "สหภาพโซเวียต",
+                    "flag": "https://img2.thaipng.com/20180410/bfe/kisspng-flag-of-the-soviet-union-hammer-and-sickle-communi-book-now-button-5acc7a5a4f3240.6341164215233501063244.jpg"
                 },
                 {
-                    "country" : "สหรัฐอเมริกา",
-                     "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/285px-Flag_of_the_United_States.svg.png",
-                },
-
+                    "country": "สหรัฐอเมริกา",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/285px-Flag_of_the_United_States.svg.png"
+                }
             ]
         },
         {
-            "role" : "ประเทศที่ถูกยึดครองและตั้งรัฐบาลพลัดถิ่น",
-            "list" : [
+            "role": "ประเทศที่ถูกยึดครองและตั้งรัฐบาลพลัดถิ่น",
+            "list": [
                 {
-                    "country" : "จีน",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/225px-Flag_of_the_Republic_of_China.svg.png",
+                    "country": "จีน",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/225px-Flag_of_the_Republic_of_China.svg.png"
                 },
                 {
                     "country": "ฝรั่งเศส",
-                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg/188px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg.png",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg/188px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg.png"
                 },
                 {
                     "country": "สาธารณรัฐโปแลนด์",
-                    "flag": "สาธารณรัฐโปแลนด์"
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/1/12/Flag_of_Poland.svg"
                 },
                 {
                     "country": "ยูโกสลาเวีย",
@@ -61,173 +60,173 @@
                     "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/225px-Flag_of_Norway.svg.png"
                 }
             ]
-        }
+        },
         {
-            "role" : "รัฐพันธมิตรอื่นๆ",
-            "list" : [
+            "role": "รัฐพันธมิตรอื่นๆ",
+            "list": [
                 {
-                    "country" : "แคนาดา",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/225px-Flag_of_Canada_%28Pantone%29.svg.png"
+                    "country": "แคนาดา",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/225px-Flag_of_Canada_%28Pantone%29.svg.png"
                 },
                 {
-                    "country" : "เครือรัฐออสเตรเลีย",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Australia.svg/225px-Flag_of_Australia.svg.png"
+                    "country": "เครือรัฐออสเตรเลีย",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Australia.svg/225px-Flag_of_Australia.svg.png"
                 },
                 {
-                    "country" : "นิวซีแลนด์",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/225px-Flag_of_New_Zealand.svg.png"
+                    "country": "นิวซีแลนด์",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/225px-Flag_of_New_Zealand.svg.png"
                 },
                 {
-                    "country" : "สหภาพแอฟริกาใต้",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_South_Africa_%281928%E2%80%931994%29.svg/188px-Flag_of_South_Africa_%281928%E2%80%931994%29.svg.png"
+                    "country": "สหภาพแอฟริกาใต้",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_South_Africa_%281928%E2%80%931994%29.svg/188px-Flag_of_South_Africa_%281928%E2%80%931994%29.svg.png"
                 },
                 {
-                    "country" : "จักรวรรดิเอธิโอเปีย",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Flag_of_Ethiopia_%281897-1936%3B_1941-1974%29.svg/188px-Flag_of_Ethiopia_%281897-1936%3B_1941-1974%29.svg.png"
+                    "country": "จักรวรรดิเอธิโอเปีย",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Flag_of_Ethiopia_%281897-1936%3B_1941-1974%29.svg/188px-Flag_of_Ethiopia_%281897-1936%3B_1941-1974%29.svg.png"
                 },
                 {
-                    "country" : "สหพันธ์สาธารณรัฐบราซิล",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/225px-Flag_of_Brazil.svg.png"
+                    "country": "สหพันธ์สาธารณรัฐบราซิล",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/225px-Flag_of_Brazil.svg.png"
                 },
                 {
-                    "country" : "สหรัฐเม็กซิโก",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/225px-Flag_of_Mexico.svg.png"
+                    "country": "สหรัฐเม็กซิโก",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/225px-Flag_of_Mexico.svg.png"
                 },
                 {
-                    "country" : "สาธารณรัฐโคลอมเบีย",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/225px-Flag_of_Colombia.svg.png"
+                    "country": "สาธารณรัฐโคลอมเบีย",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/225px-Flag_of_Colombia.svg.png"
                 },
                 {
-                    "country" : "รัฐปกครองตนเองฟิลิปปินส์",
-                    "flag" : "http://travel.mthai.com/app/uploads/2013/08/429270-02.jpg"
+                    "country": "รัฐปกครองตนเองฟิลิปปินส์",
+                    "flag": "http://travel.mthai.com/app/uploads/2013/08/429270-02.jpg"
                 },
                 {
-                    "country" : "สาธารณรัฐคิวบา",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/225px-Flag_of_Cuba.svg.png"
+                    "country": "สาธารณรัฐคิวบา",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/225px-Flag_of_Cuba.svg.png"
                 }
             ]
         }
     ],
     [
         {
-            "title" : "ฝ่ายอักษร"
+            "title": "ฝ่ายอักษะ"
         },
         {
-            "role" : "รัฐในกติกาสัญญาไตรภาคี",
-            "list" : [
+            "role": "รัฐในกติกาสัญญาไตรภาคี",
+            "list": [
                 {
-                    "country" : "นาซีเยอรมนี",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Germany_%281935%E2%80%931945%29.svg/188px-Flag_of_Germany_%281935%E2%80%931945%29.svg.png"
+                    "country": "นาซีเยอรมนี",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Germany_%281935%E2%80%931945%29.svg/188px-Flag_of_Germany_%281935%E2%80%931945%29.svg.png"
                 },
                 {
-                    "country" : "จักรวรรดิญี่ปุ่น",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Japan_%281870%E2%80%931999%29.svg/188px-Flag_of_Japan_%281870%E2%80%931999%29.svg.png"
+                    "country": "จักรวรรดิญี่ปุ่น",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Japan_%281870%E2%80%931999%29.svg/188px-Flag_of_Japan_%281870%E2%80%931999%29.svg.png"
                 },
                 {
-                    "country" : "ราชอาณาจักรอิตาลี",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Italy_%281861%E2%80%931946%29.svg/188px-Flag_of_Italy_%281861%E2%80%931946%29.svg.png"
+                    "country": "ราชอาณาจักรอิตาลี",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Italy_%281861%E2%80%931946%29.svg/188px-Flag_of_Italy_%281861%E2%80%931946%29.svg.png"
                 }
             ]
         },
         {
-            "role" : "รัฐพันธมิตร",
-            "list" : [
+            "role": "รัฐพันธมิตร",
+            "list": [
                 {
-                    "country" : "ราชอาณาจักรบัลแกเรีย (จนถึง 1944)",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/35px-Flag_of_Bulgaria.svg.png"
+                    "country": "ราชอาณาจักรบัลแกเรีย (จนถึง 1944)",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/35px-Flag_of_Bulgaria.svg.png"
                 },
                 {
-                    "country" : "ราชอาณาจักรฮังการี",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Flag_of_Hungary_%281915-1918%2C_1919-1946%29.svg/33px-Flag_of_Hungary_%281915-1918%2C_1919-1946%29.svg.png"
+                    "country": "ราชอาณาจักรฮังการี",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Flag_of_Hungary_%281915-1918%2C_1919-1946%29.svg/33px-Flag_of_Hungary_%281915-1918%2C_1919-1946%29.svg.png"
                 },
                 {
-                    "country" : "ราชอาณาจักรโรมาเนีย (จนถึง 1944)",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/33px-Flag_of_Romania.svg.png"
+                    "country": "ราชอาณาจักรโรมาเนีย (จนถึง 1944)",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/33px-Flag_of_Romania.svg.png"
                 },
                 {
-                    "country" : "ราชอาณาจักรไทย (หลัง 1941)",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/33px-Flag_of_Thailand.svg.png"
+                    "country": "ราชอาณาจักรไทย (หลัง 1941)",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/33px-Flag_of_Thailand.svg.png"
                 },
                 {
-                    "country" : "สาธารณรัฐฟินแลนด์ (จนถึง 1944)",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/35px-Flag_of_Finland.svg.png"
+                    "country": "สาธารณรัฐฟินแลนด์ (จนถึง 1944)",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/35px-Flag_of_Finland.svg.png"
                 },
                 {
-                    "country" : "ราชอาณาจักรอิรัก (จนถึง 1941)",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Flag_of_Iraq_%281924%E2%80%931959%29.svg/33px-Flag_of_Iraq_%281924%E2%80%931959%29.svg.png"
+                    "country": "ราชอาณาจักรอิรัก (จนถึง 1941)",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Flag_of_Iraq_%281924%E2%80%931959%29.svg/33px-Flag_of_Iraq_%281924%E2%80%931959%29.svg.png"
                 }
             ]
         },
         {
-            "role" : "รัฐบริวาร/รัฐหุ่นเชิด",
-            "list" : [
+            "role": "รัฐบริวาร/รัฐหุ่นเชิด",
+            "list": [
                 {
-                    "country" : "ราชอาณาจักรอัลเบเนีย",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/33px-Flag_of_Albania.svg.png"
+                    "country": "ราชอาณาจักรอัลเบเนีย",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/33px-Flag_of_Albania.svg.png"
                 },
                 {
-                    "country" : "รัฐพม่า",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_the_State_of_Burma_%281943%E2%80%931945%29.svg/33px-Flag_of_the_State_of_Burma_%281943%E2%80%931945%29.svg.png"
+                    "country": "รัฐพม่า",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_the_State_of_Burma_%281943%E2%80%931945%29.svg/33px-Flag_of_the_State_of_Burma_%281943%E2%80%931945%29.svg.png"
                 },
                 {
-                    "country" : "จีนคณะชาติ",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_the_Republic_of_China-Nanjing_%28Peace%2C_Anti-Communism%2C_National_Construction%29.svg/33px-Flag_of_the_Republic_of_China-Nanjing_%28Peace%2C_Anti-Communism%2C_National_Construction%29.svg.png"
+                    "country": "จีนคณะชาติ",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_the_Republic_of_China-Nanjing_%28Peace%2C_Anti-Communism%2C_National_Construction%29.svg/33px-Flag_of_the_Republic_of_China-Nanjing_%28Peace%2C_Anti-Communism%2C_National_Construction%29.svg.png"
                 },
                 {
-                    "country" : "รัฐเอกราชโครเอเชีย",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Independent_State_of_Croatia.svg/33px-Flag_of_Independent_State_of_Croatia.svg.png"
+                    "country": "รัฐเอกราชโครเอเชีย",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Independent_State_of_Croatia.svg/33px-Flag_of_Independent_State_of_Croatia.svg.png"
                 },
                 {
-                    "country" : "รัฐบาลปลดแอกแห่งชาติ (เซอร์เบีย)",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Flag_of_the_Government_of_National_Salvation_%28occupied_Yugoslavia%29.svg/33px-Flag_of_the_Government_of_National_Salvation_%28occupied_Yugoslavia%29.svg.png"
+                    "country": "รัฐบาลปลดแอกแห่งชาติ (เซอร์เบีย)",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Flag_of_the_Government_of_National_Salvation_%28occupied_Yugoslavia%29.svg/33px-Flag_of_the_Government_of_National_Salvation_%28occupied_Yugoslavia%29.svg.png"
                 },
                 {
-                    "country" : "รัฐเฮลเลนิก (กรีซ)",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Flag_of_Greece_%281822-1978%29.svg/33px-Flag_of_Greece_%281822-1978%29.svg.png"
+                    "country": "รัฐเฮลเลนิก (กรีซ)",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Flag_of_Greece_%281822-1978%29.svg/33px-Flag_of_Greece_%281822-1978%29.svg.png"
                 },
                 {
-                    "country" : "รัฐบาลเฉพาะกาลเสรีอินเดีย",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/1931_Flag_of_India.svg/33px-1931_Flag_of_India.svg.png"
+                    "country": "รัฐบาลเฉพาะกาลเสรีอินเดีย",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/1931_Flag_of_India.svg/33px-1931_Flag_of_India.svg.png"
                 },
                 {
-                    "country" : "สาธารณรัฐสังคมอิตาลี (หลัง 1943)",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/War_flag_of_the_Italian_Social_Republic.svg/35px-War_flag_of_the_Italian_Social_Republic.svg.png"
+                    "country": "สาธารณรัฐสังคมอิตาลี (หลัง 1943)",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/War_flag_of_the_Italian_Social_Republic.svg/35px-War_flag_of_the_Italian_Social_Republic.svg.png"
                 },
                 {
-                    "country" : "ราชอาณาจักรกัมพูชา",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_Cambodia_under_Japanese_occupation.svg/33px-Flag_of_Cambodia_under_Japanese_occupation.svg.png"
+                    "country": "ราชอาณาจักรกัมพูชา",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_Cambodia_under_Japanese_occupation.svg/33px-Flag_of_Cambodia_under_Japanese_occupation.svg.png"
                 },
                 {
-                    "country" : "ราชอาณาจักรลาว",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_French_Laos.svg/33px-Flag_of_French_Laos.svg.png"
+                    "country": "ราชอาณาจักรลาว",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_French_Laos.svg/33px-Flag_of_French_Laos.svg.png"
                 },
                 {
-                    "country" : "ประเทศแมนจูกัว",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Manchukuo.svg/33px-Flag_of_Manchukuo.svg.png"
+                    "country": "ประเทศแมนจูกัว",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Manchukuo.svg/33px-Flag_of_Manchukuo.svg.png"
                 },
                 {
-                    "country" : "เหม่งเจียง",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_the_Mengjiang.svg/33px-Flag_of_the_Mengjiang.svg.png"
+                    "country": "เหม่งเจียง",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_the_Mengjiang.svg/33px-Flag_of_the_Mengjiang.svg.png"
                 },
                 {
-                    "country" : "สาธารณรัฐฟิลิปปินส์ที่ 2",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_the_Philippines_%281943-1945%29.svg/33px-Flag_of_the_Philippines_%281943-1945%29.svg.png"
+                    "country": "สาธารณรัฐฟิลิปปินส์ที่ 2",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_the_Philippines_%281943-1945%29.svg/33px-Flag_of_the_Philippines_%281943-1945%29.svg.png"
                 },
                 {
-                    "country" : "สาธารณรัฐสโลวัก",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Flag_of_First_Slovak_Republic_1939-1945_bordered.svg/33px-Flag_of_First_Slovak_Republic_1939-1945_bordered.svg.png"
+                    "country": "สาธารณรัฐสโลวัก",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Flag_of_First_Slovak_Republic_1939-1945_bordered.svg/33px-Flag_of_First_Slovak_Republic_1939-1945_bordered.svg.png"
                 },
                 {
-                    "country" : "ฝรั่งเศสเขตวีชี",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Flag_of_Philippe_P%C3%A9tain%2C_Chief_of_State_of_Vichy_France.svg/33px-Flag_of_Philippe_P%C3%A9tain%2C_Chief_of_State_of_Vichy_France.svg.png"
+                    "country": "ฝรั่งเศสเขตวีชี",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Flag_of_Philippe_P%C3%A9tain%2C_Chief_of_State_of_Vichy_France.svg/33px-Flag_of_Philippe_P%C3%A9tain%2C_Chief_of_State_of_Vichy_France.svg.png"
                 },
                 {
-                    "country" : "โบเมินและมาเริน",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_the_Protectorate_of_Bohemia_and_Moravia.svg/33px-Flag_of_the_Protectorate_of_Bohemia_and_Moravia.svg.png"
+                    "country": "โบเมินและมาเริน",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_the_Protectorate_of_Bohemia_and_Moravia.svg/33px-Flag_of_the_Protectorate_of_Bohemia_and_Moravia.svg.png"
                 },
                 {
-                    "country" : "จักรวรรดิเวียดนาม",
-                    "flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_the_Empire_of_Vietnam_%281945%29.svg/33px-Flag_of_the_Empire_of_Vietnam_%281945%29.svg.png"
+                    "country": "จักรวรรดิเวียดนาม",
+                    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_the_Empire_of_Vietnam_%281945%29.svg/33px-Flag_of_the_Empire_of_Vietnam_%281945%29.svg.png"
                 }
             ]
         }
