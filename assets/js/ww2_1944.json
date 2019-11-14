@@ -34,6 +34,14 @@
             "picture": "none"
         },
         {
+            "date": "16 มกราคม 1944",
+            "information": [
+                "Eisenhower เป็นผู้บัญชาการกองทัพพันธมิตรตะวันตก"
+            ],
+            "monthNum": 1,
+            "picture": "none"
+        },
+        {
             "date": "17 มกราคม 1944",
             "information": [
                 "กองทัพอังกฤษในอิตาลีเดินทัพข้ามแม่น้ำ Garigliano"
@@ -227,6 +235,14 @@
             "picture": "none"
         },
         {
+            "date": "10 เมษายน 1944",
+            "information": [
+                " รัสเซียปลดปล่อย Odessa"
+            ],
+            "monthNum": 4,
+            "picture": "none"
+        },
+        {
             "date": "12 เมษายน 1944",
             "information": [
                 "ทัพเยอรมันถอนตัวออกจาก Crimea"
@@ -296,14 +312,6 @@
     ],
     [
         {
-            "date": "6 พฤษภาคม 1944",
-            "information": [
-                "ฝ่ายสัมพันธมิตรทิ้งระเบิดขนานใหญ่บนแผ่นดินใหญ่ เพื่อเตรียมการสำหรับวันดีเดย์"
-            ],
-            "monthNum": 5,
-            "picture": "none"
-        },
-        {
             "date": "8 พฤษภาคม 1944",
             "information": [
                 "กำหนดวันดีเดย์สำหรับปฏิบัติการโอเวอร์ลอร์ด เป็นวันที่ 5 มิถุนายน"
@@ -315,14 +323,6 @@
             "date": "9 พฤษภาคม 1944",
             "information": [
                 "เกิดการรบใหญ่ที่ แนวกุสตาฟ ใกล้ มอนติคาสิโน"
-            ],
-            "monthNum": 5,
-            "picture": "none"
-        },
-        {
-            "date": "12 พฤษภาคม 1944",
-            "information": [
-                "ทัพจีนยกพลจำนวนมากเข้ารุกรานตอนเหนือของพม่า"
             ],
             "monthNum": 5,
             "picture": "none"
@@ -389,9 +389,42 @@
             "picture": "none"
         },
         {
+            "date": "12 มิถุนายน 1944",
+            "information": [
+                "ทัพจีนยกพลจำนวนมากเข้ารุกรานตอนเหนือของพม่า",
+                "จรวด V1 ของเยอรมัน ยิงใส่เกาะอังกฤษ"
+            ],
+            "monthNum": 6,
+            "picture": "none"
+        },
+        {
+            "date": "15 มิถุนายน 1944",
+            "information": [
+                "ทหารเรือ ยกพลสู่ Saipan"
+            ],
+            "monthNum": 6,
+            "picture": "none"
+        },
+        {
+            "date": "19 มิถุนายน 1944",
+            "information": [
+                "Battle of the Philippine sea"
+            ],
+            "monthNum": 6,
+            "picture": "none"
+        },
+        {
             "date": "22 มิถุนายน 1944",
             "information": [
                 "ปฏิบัติการเบเกรชัน (Operation Bagration) : ทัพโซเวียตขับไล่เยอรมันออกจากเมืองเบลารุส"
+            ],
+            "monthNum": 6,
+            "picture": "none"
+        },
+        {
+            "date": "27 มิถุนายน 1944",
+            "information": [
+                "Cherbourg เป็นเสรี"
             ],
             "monthNum": 6,
             "picture": "none"
@@ -407,9 +440,33 @@
             "picture": "none"
         },
         {
+            "date": "21 กรกฎาคม 1944",
+            "information": [
+                "แต่งตั้ง Hitler General Guderian หัวหน้าให้กองทัพ (OKH) ที่ดินพรรคนาวิกโยธินในกวม"
+            ],
+            "monthNum": 7,
+            "picture": "none"
+        },
+        {
             "date": "24 กรกฎาคม 1944",
             "information": [
                 "ปฏิบัติการคอบรา (Operation Cobra) ดำเนินการเต็มรูปแบบ"
+            ],
+            "monthNum": 7,
+            "picture": "none"
+        },
+        {
+            "date": "28 กรกฎาคม 1944",
+            "information": [
+                "กองทัพรัสเซียเดินทางถึงชายแดนเยอรมันรัสเซียกลางโปแลนด์"
+            ],
+            "monthNum": 7,
+            "picture": "none"
+        },
+        {
+            "date": "30 กรกฎาคม 1944",
+            "information": [
+                " Patton แบ่งออกจากหัวหาดลึกเข้าไปในประเทศฝรั่งเศส"
             ],
             "monthNum": 7,
             "picture": "none"
@@ -433,7 +490,7 @@
             "picture": "none"
         },
         {
-            "date": "3  สิงหาคม 1944",
+            "date": "3 สิงหาคม 1944",
             "information": [
                 "กองทัพสัมพันธมิตรยึดเมือง Myitkyina ในพม่า"
             ],
@@ -441,9 +498,41 @@
             "picture": "none"
         },
         {
-            "date": "4  สิงหาคม 1944",
+            "date": "4 สิงหาคม 1944",
             "information": [
                 "กองทัพสัมพันธมิตรเข้าถึงชานเมือง Florence ในอิตาลี"
+            ],
+            "monthNum": 8,
+            "picture": "none"
+        },
+        {
+            "date": "15 สิงหาคม 1944",
+            "information": [
+                " กองทัพพันธมิตรเดินทางสู่ภาคใต้ของฝรั่งเศส"
+            ],
+            "monthNum": 8,
+            "picture": "none"
+        },
+        {
+            "date": "23 สิงหาคม 1944",
+            "information": [
+                "Romania ประกาศยอมแพ้แก่ Russians แหล่งน้ำมันของเยอรมันเหลือเพียงก๊าซธรรมชาติเท่านั้น"
+            ],
+            "monthNum": 8,
+            "picture": "none"
+        },
+        {
+            "date": "25 สิงหาคม 1944",
+            "information": [
+                "ปลดปล่อยกรุงปารีส"
+            ],
+            "monthNum": 8,
+            "picture": "none"
+        },
+        {
+            "date": "สิงหาคม 1944",
+            "information": [
+                "กองทัพอากาศพันธมิตรครอบครองน่านฟ้าเหนือเยอรมนี"
             ],
             "monthNum": 8,
             "picture": "none"
@@ -451,11 +540,81 @@
     ],
     [
         {
-            "date": "17  กันยายน 1944",
+            "date": "6 กันยายน 1944",
+            "information": [
+                "6 Finland และ Bulgaria ประกาศยอมแพ้แก่ Russians"
+            ],
+            "monthNum": 9,
+            "picture": "none"
+        },
+        {
+            "date": "8 กันยายน 1944",
+            "information": [
+                "จรวด V2 ของเยอรมัน ยิงใส่เกาะอังกฤษ"
+            ],
+            "monthNum": 9,
+            "picture": "none"
+        },
+        {
+            "date": "17 กันยายน 1944",
             "information": [
                 "เริ่มปฏิบัติการมาร์เก็ตการ์เดน"
             ],
             "monthNum": 9,
+            "picture": "none"
+        }
+    ],
+    [
+        {
+            "date": "5 ตุลาคม 1944",
+            "information": [
+                "กองทัพอังกฤษเข้าสู่กรีซ"
+            ],
+            "monthNum": 10,
+            "picture": "none"
+        },
+        {
+            "date": "10 ตุลาคม 1944",
+            "information": [
+                "เยอรมันถอยทัพจาก Riga, Latvia"
+            ],
+            "monthNum": 10,
+            "picture": "none"
+        },
+        {
+            "date": "14 ตุลาคม 1944",
+            "information": [
+                "Athens เป็นเสรี"
+            ],
+            "monthNum": 10,
+            "picture": "none"
+        },
+        {
+            "date": "20 ตุลาคม 1944",
+            "information": [
+                "กองทัพเรือยกพลสู่ Leyte"
+            ],
+            "monthNum": 10,
+            "picture": "none"
+        }
+    ],
+    [
+        {
+            "date": "14 พฤศจิกายน 1944",
+            "information": [
+                "เครื่องบิน B-29 bombers เริ่มโจมตี Tokyo จากฐานทัพใน Mariana islands"
+            ],
+            "monthNum": 11,
+            "picture": "none"
+        }
+    ],
+    [
+        {
+            "date": "16 ธันวาคม 1944",
+            "information": [
+                "โจมตีเยอรมันใน Ardennes เริ่มต้น(Battle of the Bulge)"
+            ],
+            "monthNum": 12,
             "picture": "none"
         }
     ]
