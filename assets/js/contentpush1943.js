@@ -48,7 +48,7 @@ function myFunction0(myObj) {
             }
 
         }
-        if (((j + 1) % 3 == 0) || (j == 10)) {
+        if ((j + 1) % 3 == 0) {
             document.getElementById("section-" + (count + 1) + "").innerHTML = txt;
             count += 1;
             txt = "<br>";
@@ -56,7 +56,7 @@ function myFunction0(myObj) {
     }
 
 }
-
+/*
 function myFunction1(myObj) {
     let count = 1;
     let txt = "<br>";
@@ -72,11 +72,7 @@ function myFunction1(myObj) {
                 txt += myObj[j][i].information[k];
                 txt += "</p><br>";
             }
-            /*if (myObj[j][i].information != "none") {
-                txt += '<p style="padding: 0px 10px 0px 10px;" class="is-size-4-widescreen is-size-5-touch">';
-                txt += myObj[j][i].information;
-                txt += "</p>";
-            }*/
+          
             if (myObj[j][i].picture != "none") {
                 txt += '<div class="imgset"><figure class="image"><img src="';
                 txt += myObj[j][i].picture;
@@ -91,4 +87,4 @@ function myFunction1(myObj) {
         }
     }
 
-}
+}*/
