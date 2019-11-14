@@ -241,6 +241,31 @@
             transition: 300ms ease;
             text-decoration: none;
         }
+        .btnwhite{
+            background-color: white;
+            width: 200px;
+            height: 50px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .btngray{
+            background-color: gray;
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            transition: width 2s;
+            position: relative;
+            bottom:52px;
+            opacity: 0.75;
+            
+            
+            
+            
+        }
+        .btngray:hover{
+            width: 200px;
+            
+        }
     </style>
 </head>
 
@@ -273,7 +298,14 @@
             <img src="assets/image/รถถัง.png">
         </div>
         <div class="col fu" style="justify-content: center;align-items: center;">
-            <button class="button is-rounded" onclick="location.href='WWI_content.html'"><B>TIME LINE</b></button>
+            <div class="btnwhite" onclick="location.href='WWI_content.html'">
+                    <img src="assets/image/btn index1.png">
+                    <div class="btngray" onclick="location.href='WWI_content.html'">
+                        <img src="assets/image/btnarrow.png">    
+
+                    </div>
+                    
+                </div>
         </div>
     </div>
 
