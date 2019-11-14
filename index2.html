@@ -10,6 +10,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="icon" href="assets/image/icon_head.png">
+
     <style>
         body {
             font-family: 'Kanit', sans-serif;
@@ -30,6 +31,20 @@
             top: 0;
             left: 0;
             z-index: 99;
+        }
+
+        .imgset {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cardho:hover {
+            transform: scale(1.025);
+            transition: 300ms ease;
+            text-decoration: none;
         }
 
         .card:hover .pic1hover {
@@ -198,27 +213,29 @@
         }
 
         @media screen and (max-width: 1400px) {
-           .fontres{
+            .fontres {
                 font-size: 1.3em;
             }
         }
+
         @media screen and (max-width: 1200px) {
-           .fontres{
+            .fontres {
                 font-size: 1em;
             }
         }
+
         @media screen and (max-width: 768px) {
-           .fontres{
+            .fontres {
                 font-size: 1.4em;
             }
         }
+
         @media screen and (max-width: 925px) {
-           .fu{
+            .fu {
                 width: 100%;
                 margin-bottom: 30px;
             }
         }
-        
     </style>
 </head>
 
@@ -251,10 +268,10 @@
             <img src="assets/image/เครื่องบิน.png">
         </div>
         <div class="col fu" style="justify-content: center;align-items: center;">
-            <button class="button is-rounded"><B>TIME LINE</b></button>
+            <button class="button is-rounded" onclick="location.href='WWII_content1939.html'"><B>TIME LINE</b></button>
         </div>
     </div>
-    
+
 
     <div class="container is-fluid">
 
@@ -272,28 +289,33 @@
                             <span class="close cursor" onclick="closeModal()">&times;</span>
                             <div class="modal-content">
 
-                                <div class="mySlides" onclick="plusSlides(1)"> 
+                                <div class="mySlides" onclick="plusSlides(1)">
                                     <div class="numbertext">1 / 4</div>
                                     <img src="assets/image/index2 pic1.jpeg" style="width:100%">
-                                    <p>การทิ้งระเบิดปรมาณูของนางาซากิประเทศญี่ปุ่นโดยสหรัฐอเมริกาเมื่อวันที่ 9 สิงหาคม 1945</p>
+                                    <p>การทิ้งระเบิดปรมาณูของนางาซากิประเทศญี่ปุ่นโดยสหรัฐอเมริกาเมื่อวันที่ 9 สิงหาคม
+                                        1945</p>
                                 </div>
 
                                 <div class="mySlides" onclick="plusSlides(1)">
                                     <div class="numbertext">2 / 4</div>
                                     <img src="assets/image/index2 pic2.jpg" style="width:100%">
-                                    <p>นาวิกโยธินสหรัฐฯห้าคนและกะลาสีหนึ่งคนยกธงชาติอเมริกันขึ้นเหนือภูเขาซูริบาจิในช่วงสงครามอิโวจิมาเมื่อวันที่ 23 กุมภาพันธ์ 1945</p>
+                                    <p>นาวิกโยธินสหรัฐฯห้าคนและกะลาสีหนึ่งคนยกธงชาติอเมริกันขึ้นเหนือภูเขาซูริบาจิในช่วงสงครามอิโวจิมาเมื่อวันที่
+                                        23 กุมภาพันธ์ 1945</p>
                                 </div>
 
                                 <div class="mySlides" onclick="plusSlides(1)">
                                     <div class="numbertext">3 / 4</div>
                                     <img src="assets/image/index2 pic3.jpg" style="width:100%">
-                                    <p>เครื่องบินทิ้งระเบิดกองทัพอากาศสหรัฐฯบินเหนือ Ploiești โรมาเนียหลังจากการโจมตีในวันที่ 1 สิงหาคม 1943
-                                        จากตากล้อง 16 คน ที่มาพร้อมกับภารกิจนี้ คนที่ถ่ายรูปรูปนี้เป็นคนเดียวที่รอดชีวิต</p>
+                                    <p>เครื่องบินทิ้งระเบิดกองทัพอากาศสหรัฐฯบินเหนือ Ploiești
+                                        โรมาเนียหลังจากการโจมตีในวันที่ 1 สิงหาคม 1943
+                                        จากตากล้อง 16 คน ที่มาพร้อมกับภารกิจนี้ คนที่ถ่ายรูปรูปนี้เป็นคนเดียวที่รอดชีวิต
+                                    </p>
                                 </div>
                                 <div class="mySlides" onclick="plusSlides(1)">
                                     <div class="numbertext">4 / 4</div>
                                     <img src="assets/image/index 2 pic 4.jpg" style="width: 100%;">
-                                    <p>เรือโรเบิร์ตโรวันเรืออเมริกันระเบิดหลังจากถูกโจมตีโดยเครื่องบินทิ้งระเบิดเยอรมันนอกชายฝั่งเจลาซิซิลีเมื่อวันที่ 11 กรกฎาคม 1943</p>
+                                    <p>เรือโรเบิร์ตโรวันเรืออเมริกันระเบิดหลังจากถูกโจมตีโดยเครื่องบินทิ้งระเบิดเยอรมันนอกชายฝั่งเจลาซิซิลีเมื่อวันที่
+                                        11 กรกฎาคม 1943</p>
                                 </div>
 
                                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -311,12 +333,44 @@
                     SECOND WORLD WAR
                 </h1>
                 <h2 class="fontres"><br>
-                    &nbsp &nbsp สงครามโลกครั้งที่สอง ( World War II หรือ Second World War; มักย่อเป็น WWII หรือ WW2) เป็นสงครามทั่วโลกกินเวลาตั้งแต่ปี 1939 ถึง 1945 ประเทศส่วนใหญ่ในโลกมีส่วนเกี่ยวข้อง รวมทั้งรัฐมหาอำนาจทั้งหมด แบ่งเป็นพันธมิตรทางทหารคู่สงครามสองฝ่าย คือ ฝ่ายสัมพันธมิตรและฝ่ายอักษะ เป็นสงครามที่กว้างขวางที่สุดในประวัติศาสตร์ มีทหารกว่า 100 ล้านนายจากกว่า 30 ประเทศเข้าร่วมโดยตรง สงครามนี้มีลักษณะเป็น "สงครามเบ็ดเสร็จ" คือ ประเทศผู้ร่วมสงครามหลักทุ่มขีดความสามารถทางเศรษฐกิจ อุตสาหกรรมและวิทยาศาสตร์ทั้งหมดเพื่อความพยายามของสงคราม โดยลบเส้นแบ่งระหว่างทรัพยากรของพลเรือนและทหาร ประเมินกันว่าสงครามมีมูลค่าราว 1 ล้านล้านดอลลาร์สหรัฐ ประเมินกันว่ามีผู้เสียชีวิตระหว่าง 50 ถึง 85 ล้านคน ด้วยประการทั้งปวง สงครามโลกครั้งที่สองจึงนับว่าเป็นสงครามขนาดใหญ่ที่สุด ใช้เงินทุนมากที่สุด และมีผู้เสียชีวิตสูงสุดในประวัติศาสตร์มนุษยชาติ
+                    &nbsp &nbsp สงครามโลกครั้งที่สอง ( World War II หรือ Second World War; มักย่อเป็น WWII หรือ WW2)
+                    เป็นสงครามทั่วโลกกินเวลาตั้งแต่ปี 1939 ถึง 1945 ประเทศส่วนใหญ่ในโลกมีส่วนเกี่ยวข้อง
+                    รวมทั้งรัฐมหาอำนาจทั้งหมด แบ่งเป็นพันธมิตรทางทหารคู่สงครามสองฝ่าย คือ ฝ่ายสัมพันธมิตรและฝ่ายอักษะ
+                    เป็นสงครามที่กว้างขวางที่สุดในประวัติศาสตร์ มีทหารกว่า 100 ล้านนายจากกว่า 30 ประเทศเข้าร่วมโดยตรง
+                    สงครามนี้มีลักษณะเป็น "สงครามเบ็ดเสร็จ" คือ ประเทศผู้ร่วมสงครามหลักทุ่มขีดความสามารถทางเศรษฐกิจ
+                    อุตสาหกรรมและวิทยาศาสตร์ทั้งหมดเพื่อความพยายามของสงคราม
+                    โดยลบเส้นแบ่งระหว่างทรัพยากรของพลเรือนและทหาร ประเมินกันว่าสงครามมีมูลค่าราว 1 ล้านล้านดอลลาร์สหรัฐ
+                    ประเมินกันว่ามีผู้เสียชีวิตระหว่าง 50 ถึง 85 ล้านคน ด้วยประการทั้งปวง
+                    สงครามโลกครั้งที่สองจึงนับว่าเป็นสงครามขนาดใหญ่ที่สุด ใช้เงินทุนมากที่สุด
+                    และมีผู้เสียชีวิตสูงสุดในประวัติศาสตร์มนุษยชาติ
                 </h2>
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="columns">
+            <div class="column-12"><br>
+                <div class="is-size-1" style="margin-left: 1em;">คู่ขัดแย้ง</div>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column-12"><br>
+                <div class="is-size-2" style="margin-left: 1em;">ฝ่ายสัมพันธมิตร</div>
+            </div>
+        </div>
+        <div class="columns is-multiline imgset" id="WWIIparty0">
 
+        </div>
+        <div class="columns">
+            <div class="column-12"><br>
+                <div class="is-size-2" style="margin-left: 1em;">ฝ่ายอักษะ</div>
+            </div>
+        </div>
+        <div class="columns is-multiline imgset" id="WWIIparty1">
+
+        </div>
+    </div>
+    <script src="assets/js/partyWWIIpush.js"></script>
 
     <footer class="footer">
         <div class="content has-text-centered">
