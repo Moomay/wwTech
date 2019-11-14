@@ -127,7 +127,7 @@
         {
             "date": "29 มกราคม 1943",
             "information": [
-                "ยุทธนาวีที่เกาะเรนเนล (The naval battle of Rennel Island) ใกล้กับเกาะกัวดาคาแนล เรือรบชิคาโกอับปาง",
+                "ยุทธนาวีที่ดเรนเนล (The naval battle of Rennel Island) ใกล้กับเกาะกัวดาคาแนล เรือรบชิคาโกอับปาง",
                 "การโจมตีเบอร์ลินติดต่อกันอีกครั้งโดยกองทัพอากาศอังกฤษ"
             ],
             "monthNum": 1,
@@ -211,7 +211,7 @@
                 "เริ่มต้น The battle of Kursk"
             ],
             "monthNum": 7,
-            "picture": "none"
+            "picture": "assets/image/conpic10.jpg"
         },
         {
             "date": "10 กรกฎาคม 1943",
@@ -247,7 +247,7 @@
                 "พันธมิตรบุกแผ่นดินใหญ่ของอิตาลี"
             ],
             "monthNum": 9,
-            "picture": "none"
+            "picture": "assets/image/conpic11.jpg"
         },
         {
             "date": "8 กันยายน 1943",
