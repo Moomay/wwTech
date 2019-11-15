@@ -1,5 +1,5 @@
-let requestURL0 = '../assets/js/ww2_1943.json';
-let requestURL1 = '../assets/js/ww2_1944.json';
+let requestURL0 = 'assets/js/ww2_1943.json';
+let requestURL1 = 'assets/js/ww2_1944.json';
 let request0 = new XMLHttpRequest();
 let request1 = new XMLHttpRequest();
 request0.onreadystatechange = function () {
